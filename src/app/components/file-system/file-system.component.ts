@@ -7,7 +7,6 @@ import { Directory } from '@capacitor/filesystem';
 @Component({
     selector: 'file-system',
     templateUrl: 'file-system.component.html',
-    // styleUrls: ['home.page.scss'],
 })
 export class FileSystemComponent implements OnInit {
     @ViewChild('filepicker')
